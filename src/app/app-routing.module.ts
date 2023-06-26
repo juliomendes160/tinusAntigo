@@ -5,8 +5,8 @@ import { LogradouroComponent } from './content/logradouro/logradouro.component';
 import { environment } from 'src/environments/environment.development';
 
 const routes: Routes = [
-  { path: 'imobiliario', component:  ImobiliarioComponent},
-  { path: 'logradouro', component:  LogradouroComponent},
+  { path: 'tinus/imobiliario', component:  ImobiliarioComponent},
+  { path: 'tinus/logradouro', component:  LogradouroComponent},
 ];
 
 @NgModule({
