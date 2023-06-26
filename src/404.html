@@ -3,13 +3,11 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>404 - Page not found</title>
-  <!-- <script>
-    var path = window.location.pathname.replace(/\/$/, '');
-    path = (path === '') ? '/' : path;
-    window.location.href = '/tinus/index.html#' + path;
-  </script> -->
+  <script>
+    var redirectUrl = window.location.href.replace(/\/$/, '') + '/index.html';
+    window.location.href = redirectUrl;
+  </script>
 </head>
 <body>
-  <p>sssss</p>
 </body>
 </html>
