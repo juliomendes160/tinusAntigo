@@ -5,8 +5,10 @@ import { LogradouroComponent } from './content/logradouro/logradouro.component';
 import { environment } from 'src/environments/environment.development';
 
 const routes: Routes = [
-  { path: 'tinus/imobiliario', component:  ImobiliarioComponent},
-  { path: 'tinus/logradouro', component:  LogradouroComponent},
+  { path: 'imobiliario', component:  ImobiliarioComponent},
+  { path: 'logradouro', component:  LogradouroComponent},
+  { path: 'imobiliario', redirectTo: '/imobiliario', pathMatch: 'full' }, // Redirecionar para a rota padrão (imobiliario)
+  { path: 'logradouro', redirectTo: '/logradouro', pathMatch: 'full' }, // Redirecionar para outra rota padrão (logradouro)
 ];
 
 @NgModule({
