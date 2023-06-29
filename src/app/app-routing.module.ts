@@ -3,12 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { ImobiliarioComponent } from './content/imobiliario/imobiliario.component';
 import { LogradouroComponent } from './content/logradouro/logradouro.component';
 import { environment } from 'src/environments/environment.development';
+import { FoundComponent } from './content/found/found.component';
 
 const routes: Routes = [
   { path: 'imobiliario', component:  ImobiliarioComponent},
   { path: 'logradouro', component:  LogradouroComponent},
-  { path: 'imobiliario', redirectTo: '/imobiliario', pathMatch: 'full' }, // Redirecionar para a rota padrão (imobiliario)
-  { path: 'logradouro', redirectTo: '/logradouro', pathMatch: 'full' }, // Redirecionar para outra rota padrão (logradouro)
 ];
 
 @NgModule({
