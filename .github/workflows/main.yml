@@ -32,4 +32,4 @@ jobs:
         with:
           github_token: ${{ secrets.TINUS_TOKEN }}
           publish_dir: docs
-          publish_branch: production/docs
+          publish_branch: production
