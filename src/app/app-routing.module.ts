@@ -2,8 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ImobiliarioComponent } from './content/imobiliario/imobiliario.component';
 import { LogradouroComponent } from './content/logradouro/logradouro.component';
-import { environment } from 'src/environments/environment.development';
-import { FoundComponent } from './content/found/found.component';
+// import { environment } from 'src/environments/environment.development';
 
 const routes: Routes = [
   { path: 'imobiliario', component:  ImobiliarioComponent},
